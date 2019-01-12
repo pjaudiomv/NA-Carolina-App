@@ -1,0 +1,26 @@
+.sebm-google-map-container {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+ion-range#RadiusRange {
+	/* z-index: 0; */
+	position: relative !important;
+	top: 0px;
+	left: 0px !important;
+	background: #0A50A1;
+	color:#fff;
+
+}
+
+div.range-slider div.range-bar.range-bar-active {
+	background-color: #fff;
+
+}
+
+div.range-slider div.range-knob-handle div.range-knob {
+	background-color: #fff;
+
+}
