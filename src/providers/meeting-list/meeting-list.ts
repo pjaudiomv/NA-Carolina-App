@@ -11,7 +11,7 @@ export class MeetingListProvider {
   constructor(public http: HttpClient) {
   }
 
-    getApiUrl : string = this.italiaBMLT + "?switcher=GetSearchResults&sort_keys=longitude,latitude";
+    getApiUrl : string = this.italiaBMLT + "?switcher=GetSearchResults&services=119&recursive=1&sort_keys=longitude,latitude";
 
     getAllItalianMeetings() {
         return this.http.get(this.getApiUrl);
